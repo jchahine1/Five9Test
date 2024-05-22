@@ -1,5 +1,3 @@
-console.log("Language file is loaded");
-
 chatLangCallback({
     "APPLICATION_TYPE": "Charla",
     "S_PAGE_TITLE": "Charla",
