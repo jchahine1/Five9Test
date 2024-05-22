@@ -1,0 +1,45 @@
+<script src=https://app.five9.com/consoles/SocialWidget/five9-social-widget.min.js></script>
+<script>
+var options = {
+             "rootUrl": https://app.five9.com/consoles/,
+             "type": "chat",
+             "title": "RI_Chat",
+             "tenant": "AHS.com",
+             "profiles": "RI_Chat",
+             "showProfiles": true,
+             "autostart": true,
+             "theme": "default-theme.css",
+             "surveyOptions": {
+                            "showComment": true,
+                            "requireComment": false
+             },
+             "fields": {
+                            "name": {
+                                          "value": "",
+                                          "show": true,
+                                          "label": "Name"
+                            },
+                            "email": {
+                                          "value": "",
+                                          "show": true,
+                                          "label": "Email"
+                            },
+                            "UserLocale": {
+                                          "value": "en",
+                                          "show": false
+                            }
+             },
+             "playSoundOnMessage": true,
+             "allowCustomerToControlSoundPlay": false,
+             "showEmailButton": true,
+             "hideDuringAfterHours": false,
+             "useBusinessHours": false,
+             "showPrintButton": false,
+             "allowUsabilityMenu": false,
+             "enableCallback": false,
+             "callbackList": "",
+             "allowRequestLiveAgent": false
+};
+Five9SocialWidget.addWidget(options);
+ 
+</script>
