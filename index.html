@@ -1,8 +1,15 @@
-<script src=https://app.five9.com/consoles/SocialWidget/five9-social-widget.min.js></script>
-<script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FIVE 9</title>
+</head>
+<body>
+    <!-- Your Content Here -->
 
-var options = {
-             "rootUrl": https://app.five9.com/consoles/,
+    <script src="https://app.five9.com/consoles/SocialWidget/five9-social-widget.min.js"></script>
+    <script>
+        var options = {
+             "rootUrl": "https://app.five9.com/consoles/",
              "type": "chat",
              "title": "RI_Chat",
              "tenant": "AHS.com",
@@ -26,10 +33,10 @@ var options = {
                                           "label": "Email"
                             },
                             "UserLocale": {
-                                          "value": "en",
+                                          "value": "sp",
                                           "show": false
                             },
-                            "lang": "https://raw.githubusercontent.com/jchahine1/Five9Test/main/language%20file.js?token=GHSAT0AAAAAACSU3EC3OKX6BENPV4JZ2XKGZSOHNLQ"
+                            "lang": "https://raw.githubusercontent.com/jchahine1/Five9Test/main/language%20file.js?token=GHSAT0AAAAAACSU3EC3T4X2J7K4MYUAFZKEZSOHWPA"
              },
              "playSoundOnMessage": true,
              "allowCustomerToControlSoundPlay": false,
@@ -41,7 +48,8 @@ var options = {
              "enableCallback": false,
              "callbackList": "",
              "allowRequestLiveAgent": false
-};
-Five9SocialWidget.addWidget(options);
- 
-</script>
+        };
+    Five9SocialWidget.addWidget(options);
+    </script>
+</body>
+</html>
